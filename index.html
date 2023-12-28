@@ -11,43 +11,43 @@
 
 <body>
 
-	<div class="auth">
-		<div class="auth__image">
-			<img src="./bg.jpg" alt="bg" class="auth__bg">
-		</div>
 
-
-		<div class="auth__wrapper">
-			<h2 class='auth__title'>Sign In</h2>
-
-			<div class="auth__box">
-				<label for="email" class="auth__label">
-					Email:
-				</label>
-				<div class="auth__input-wrapper">
-					<input id='"email' type="text" class="auth__enter" placeholder='Email' />
+	<div class="login-box">
+		<div class="login-wrapper">
+			<h1 class="login-title">Sign In</h1>
+			<form class="login-form">
+				<div class="input-box">
+					<label for="username" class="input-label" data-title="Username:">
+						Username:
+					</label>
+					<div class="input-wrapper">
+						<input type="username" id="input" class="input" placeholder='Username' />
+					</div>
 				</div>
-			</div>
-
-			<div class="auth__box">
-				<label for="email" class="auth__label">
-					Email:
-				</label>
-				<div class="auth__input-wrapper">
-					<input id='"email' type="text" class="auth__enter" placeholder='Email' />
+				<div class="input-box">
+					<label for="email" class="input-label" data-title="Email:">
+						Email:
+					</label>
+					<div class="input-wrapper">
+						<input type="email" id="input" class="input" placeholder="Email" />
+					</div>
 				</div>
-			</div>
+				<div class="input-box">
+					<label for="password" class="input-label" data-title="Password:">
+						Password:
+					</label>
+					<div class="input-wrapper">
+						<input type="password" id="input" class="input" placeholder='Password' />
+					</div>
+				</div>
 
-
-			<div class="auth__btns">
-				<a href="#" class="auth__link">
-					Login
-				</a>
-			</div>
-
+				<button class='login-link'>
+					Sign In
+				</button>
+			</form>
 		</div>
-
 	</div>
+
 
 </body>
 
